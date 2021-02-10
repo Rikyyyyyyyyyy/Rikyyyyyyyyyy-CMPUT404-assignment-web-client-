@@ -17,7 +17,7 @@
 # run python freetests.py
 
 import unittest
-import ans
+import httpclient
 import http.server
 import threading
 import socketserver
@@ -30,7 +30,7 @@ BASEHOST = '127.0.0.1'
 BASEPORT = 27600 + random.randint(1,100)
 
 
-httpclass = ans
+httpclass = httpclient
 #import mysolution
 #httpclass = mysolution
 
